@@ -21,3 +21,7 @@ while True:
     cv2.imshow('Face Blur',img)
     if cv2.waitKey(1) & 0xff==ord('q'):
         break
+# Turn camera off        
+cap.release()
+# Close camera window
+cv2.destroyAllWindows()
