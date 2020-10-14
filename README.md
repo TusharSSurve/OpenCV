@@ -7,6 +7,7 @@ Pre-requisites
 To install opencv-python package, just run the following command in the terminal:
 
 `pip install opencv-python`
+`pip install imutils`
 
 If you have some problems try with sudo for linux and mac users. For Windows users run the shell as administrator.
 
