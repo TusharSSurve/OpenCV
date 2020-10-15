@@ -1,10 +1,7 @@
 # OpenCV-Mini-Projects
-Pre-requisites
-- Python 3
-- Python pip
-- opencv-python package
+**Computer vision** is a field of artificial intelligence that trains computers to interpret and understand the visual world. Using digital images from cameras and videos and deep learning models, machines can accurately identify and classify objects — and then react to what they “see.”
 
-If you have some problems try with sudo for linux and mac users. For Windows users run the shell as administrator.
+
 
 ## 1. Face Blur
 
