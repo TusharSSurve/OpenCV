@@ -15,5 +15,5 @@ Used one image color (source) to change the color of different image (target) us
 
 ## 3. Live Sketch
 
-transform an image or a video into a sketch.
+convert an image or a video into a sketch.
 
