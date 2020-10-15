@@ -4,12 +4,6 @@ Pre-requisites
 - Python pip
 - opencv-python package
 
-To install opencv-python package, just run the following command in the terminal:
-
-`pip install opencv-python`
-
-`pip install imutils`
-
 If you have some problems try with sudo for linux and mac users. For Windows users run the shell as administrator.
 
 ## 1. Face Blur
@@ -18,4 +12,9 @@ Use GaussianBlur with a kernel of (91,91) to blur faces. It can be used for Priv
 
 ## 2. Color Transfer
 
+Used one image color (source) to change the color of different image (target) using both Color Transfer Algorithm as well as color_transfer modules. It can be used to apply different types of color filters.
+
 ## 3. Live Sketch
+
+Convert one image into a sketch.
+
