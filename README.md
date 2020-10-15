@@ -15,3 +15,7 @@ If you have some problems try with sudo for linux and mac users. For Windows use
 ## 1. Face Blur
 
 Use GaussianBlur with a kernel of (91,91) to blur faces. It can be used for Privacy & Identity Protection in public/private areas. Can increase or decrease blur strength by changing the kernel.
+
+## 2. Color Transfer
+
+## 3. Live Sketch
