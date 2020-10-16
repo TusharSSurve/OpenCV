@@ -17,3 +17,6 @@ Used one image color (source) to change the color of different image (target) us
 
 convert an image or a video into a sketch.
 
+## 4. Extract Faces From An Image
+
+Simple python program to extract faces from an image. It can be used in a face recognition app to get more accuracy.
