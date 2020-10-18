@@ -27,3 +27,7 @@ Color detection is the process of detecting the name of any color. Color detecti
 
 - In self-driving car, to detect the traffic signals.
 - Multiple color detection is used in some industrial robots, to performing pick-and-place task in separating different colored objects.
+
+## 6. Virtual Paint
+
+
