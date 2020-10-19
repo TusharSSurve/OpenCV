@@ -31,3 +31,5 @@ Color detection is the process of detecting the name of any color. Color detecti
 ## 6. Virtual Paint
 
 This code helps you track an object-of-interest to draw colored lines on the screen (just like the Paint application but using the webcam).
+
+## 7. Number Plate Detection
