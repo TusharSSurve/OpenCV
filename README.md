@@ -40,6 +40,8 @@ Detecting Number plate from image (or webcam) of cars.
 
 Detect all landmarks of face like Eyes, Nose, Lips, Eyebrows.
 I have used pre-trained HOG + Linear SVM object detector specifically for the task of face detection.
+https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
+
 Detecting facial landmarks in an image is a two step process:
 First i have localize a face(s) in an image. This can be accomplished using a number of different techniques, but normally involve either Haar cascades or HOG + Linear SVM detectors. Apply the shape predictor, specifically a facial landmark detector, to obtain the (x, y)-coordinates of the face regions in the face ROI. 
 
