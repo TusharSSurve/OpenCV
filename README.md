@@ -51,3 +51,7 @@ It can used in Face part extraction (i.e., nose, eyes, mouth, jawline, etc.), Fa
 ## 9. Eye Blink Detection
 
 Detect if an eye blink or not. We first detect the eyes & then, we detect two lines: an horizontal line and a vertical line crossing the eye. The size of the horizontal line is almost identical in the closed eye and in the open eye while the vertical line is much longer in the open eye in coparison with the closed eye. In the closed eye, the vertical line almost disappears.
+
+I have used pre-trained HOG + Linear SVM object detector specifically for the task of face detection.
+Download shape_predictor_68_face_landmarks.dat from here:-
+https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
