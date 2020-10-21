@@ -47,3 +47,7 @@ Detecting facial landmarks in an image is a two step process:
 First i have localize a face(s) in an image. This can be accomplished using a number of different techniques, but normally involve either Haar cascades or HOG + Linear SVM detectors. Apply the shape predictor, specifically a facial landmark detector, to obtain the (x, y)-coordinates of the face regions in the face ROI. 
 
 It can used in Face part extraction (i.e., nose, eyes, mouth, jawline, etc.), Facial alignment, Head pose estimation, Face swapping, Blink detection …and much more applications!
+
+## 9. Eye Blink Detection
+
+Detect if an eye blink or not. We first detect the eyes & then, we detect two lines: an horizontal line and a vertical line crossing the eye. The size of the horizontal line is almost identical in the closed eye and in the open eye while the vertical line is much longer in the open eye in coparison with the closed eye. In the closed eye, the vertical line almost disappears.
