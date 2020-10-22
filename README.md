@@ -55,3 +55,7 @@ Detect if an eye blink or not. We first detect the eyes & then, we detect two li
 I have used pre-trained HOG + Linear SVM object detector specifically for the task of face detection.
 Download shape_predictor_68_face_landmarks.dat from here:-
 https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
+
+## 10. Face Recognition
+
+Face recognition is a method of identifying or verifying the identity of an individual using their face. Face recognition systems can be used to identify people in photos, video, or in real-time. Law enforcement may also use mobile devices to identify people during police stops. 
