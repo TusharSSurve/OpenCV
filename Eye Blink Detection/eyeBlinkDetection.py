@@ -34,7 +34,7 @@ while True:
         right_eye_ratio = get_blinking_ratio([42, 43, 44, 45, 46, 47], landmarks)
         blinking_ratio = (left_eye_ratio + right_eye_ratio) / 2
 
-        if blinking_ratio > 5.7:
+        if blinking_ratio > 5.0:
             cv2.putText(img,"Blinking",(20,50),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
 
     
