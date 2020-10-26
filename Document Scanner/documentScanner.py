@@ -1,5 +1,6 @@
 import cv2
 import numpy as np 
+from skimage.filters import threshold_local
 
 def findCanny(img):
     imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
@@ -17,24 +18,26 @@ def getContours(img):
     for cnt in contours:
         area = cv2.contourArea(cnt)
         if area>5000:
+            #cv2.drawContours(imgContour, cnt, -1, (255, 0, 0), 3)
             peri = cv2.arcLength(cnt,True)
             approx = cv2.approxPolyDP(cnt,0.02*peri,True)
             if area >maxArea and len(approx) == 4:
                 biggest = approx
                 maxArea = area
+    cv2.drawContours(imgContour, biggest, -1, (255, 0, 0), 20)
     return biggest
  
 def reorder (myPoints):
     myPoints = myPoints.reshape((4,2))
     myPointsNew = np.zeros((4,1,2),np.int32)
     add = myPoints.sum(1)
+    #print("add", add)
     myPointsNew[0] = myPoints[np.argmin(add)]
     myPointsNew[3] = myPoints[np.argmax(add)]
-    
     diff = np.diff(myPoints,axis=1)
     myPointsNew[1]= myPoints[np.argmin(diff)]
     myPointsNew[2] = myPoints[np.argmax(diff)]
-    
+    #print("NewPoints",myPointsNew)
     return myPointsNew
  
 def getWarp(img,biggest):
@@ -55,5 +58,9 @@ imgContour = img.copy()
 imgFinal = findCanny(img)
 biggest = getContours(imgFinal)
 imgWarp = getWarp(img,biggest)
+
+imgWarp = cv2.cvtColor(imgWarp, cv2.COLOR_BGR2GRAY)
+T = threshold_local(imgWarp, 11, offset = 10, method = "gaussian")
+imgWarp = (imgWarp > T).astype("uint8") * 255
 cv2.imshow('Image',imgWarp)
 cv2.waitKey(0)
