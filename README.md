@@ -59,3 +59,12 @@ https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predic
 ## 10. Face Recognition
 
 Face recognition is a method of identifying or verifying the identity of an individual using their face. Face recognition systems can be used to identify people in photos, video, or in real-time. Law enforcement may also use mobile devices to identify people during police stops. 
+
+## 11. Document Scanner
+
+Building a document scanner with OpenCV can be accomplished in just three simple steps:
+
+- Step 1: Detect edges.
+- Step 2: Use the edges in the image to find the contour (outline) representing the piece of paper being scanned.
+- Step 3: Apply a perspective transform to obtain the top-down view of the document.
+
