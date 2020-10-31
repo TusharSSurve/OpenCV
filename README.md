@@ -79,7 +79,8 @@ https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predic
 
 ## 13. Chrome Dino Game
 
-
+Play offline chrome dinosaur game using opencv & eye blink. Just open chrome browser with no internet connection.
+Drawback of this application is it can be used only for jumping purpose.
 I have used pre-trained HOG + Linear SVM object detector specifically for the task of face detection.
 Download shape_predictor_68_face_landmarks.dat from here:-
 https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
