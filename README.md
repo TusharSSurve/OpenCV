@@ -89,3 +89,7 @@ https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predic
 ## 14. Object Detection
 
 Object detection is a computer vision technique that allows us to identify and locate objects in an image or video. With this kind of identification and localization, object detection can be used to count objects in a scene and determine and track their precise locations, all while accurately labeling them.
+
+## 15. Angle Finder
+
+Created an angle finder. In that, I first define two lines using mouse clicks and then find the angle between theses lines using simple mathematics. 
