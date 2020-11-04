@@ -93,3 +93,10 @@ Object detection is a computer vision technique that allows us to identify and l
 ## 15. Angle Finder
 
 Created an angle finder. In that, I first define two lines using mouse clicks and then find the angle between theses lines using simple mathematics. 
+
+## 16. Face Alignment
+
+
+I have used pre-trained HOG + Linear SVM object detector specifically for the task of face detection.
+Download shape_predictor_68_face_landmarks.dat from here:-
+https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
