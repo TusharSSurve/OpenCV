@@ -101,3 +101,7 @@ Face alignment is the task of identifying the geometric structure of faces in di
 I have used pre-trained HOG + Linear SVM object detector specifically for the task of face detection.
 Download shape_predictor_68_face_landmarks.dat from here:-
 https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
+
+## 17. Contour Detection
+
+Contour detection is a major issue in image processing. For instance, in classification and segmentation, the goal is to split the image into several parts. This problem is strongly related to the detection of the connected contours separating these parts. It is quite easy to detect edges using local image analysis techniques, but the detection of continuous contours is more complicated and needs a global analysis of the image.
