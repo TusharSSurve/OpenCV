@@ -105,3 +105,10 @@ https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predic
 ## 17. Contour Detection
 
 Contour detection is a major issue in image processing. For instance, in classification and segmentation, the goal is to split the image into several parts. This problem is strongly related to the detection of the connected contours separating these parts. It is quite easy to detect edges using local image analysis techniques, but the detection of continuous contours is more complicated and needs a global analysis of the image.
+
+## 18. Remove Duplicates Images From An Given Dataset
+
+Having duplicate images in your dataset creates a problem for two reasons:
+
+    It introduces bias into your dataset, giving your deep neural network additional opportunities to learn patterns specific to the duplicates
+    It hurts the ability of your model to generalize to new images outside of what it was trained on
