@@ -114,7 +114,9 @@ Having duplicate images in your dataset creates a problem for two reasons:
 
 And identifying duplicates in a large dataset manually is very time consuming and error-prone. That's why we want to remove duplicate images from our dataset.
 
-## 19. Blink Count Detection
+## 19. Eye Blink Count Detection
+
+We can use eye blink count detector to check if eyes are blinking regularly or not to avoid the symptoms of Dry Eye. As eye blink is considered to be a suitable indicator for fatigue diagnostics. Drowsy state may be caused by lack of sleep, medication, drugs or driving continuously for long time period.
 
 I have used pre-trained HOG + Linear SVM object detector specifically for the task of face detection.
 Download shape_predictor_68_face_landmarks.dat from here:-
