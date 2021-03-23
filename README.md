@@ -122,3 +122,7 @@ I have used pre-trained HOG + Linear SVM object detector specifically for the ta
 Download shape_predictor_68_face_landmarks.dat from here:-
 https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
 
+## 20. Object Tracking
+
+Simple and realtime object tracking in a video sequence. 
+
