@@ -126,3 +126,6 @@ https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predic
 
 Simple and realtime object tracking in a video sequence. 
 
+## 21. Add WaterMark
+
+Add watermark to images using opencv. Please make sure that watermark has black background.
