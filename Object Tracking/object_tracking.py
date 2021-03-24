@@ -2,12 +2,20 @@ import cv2
 
 cap = cv2.VideoCapture(0)
 
-#*To run below code please install:- pip install opencv-contrib-python==4.2.0.34
-tracker = cv2.TrackerMOSSE_create()
-# tracker = cv2.TrackerCSRT_create()  #* Slower but more accurate
+
 
 #*Tracker Types. More Info:- https://ehsangazar.com/object-tracking-with-opencv-fd18ccdd7369
-# tracker_types = ['BOOSTING', 'MIL','KCF', 'TLD', 'MEDIANFLOW', 'CSRT', 'MOSSE'] 
+ 
+tracker_types = {
+    'BOOSTING':cv2.TrackerBoosting_create,
+    'MIL':cv2.TrackerMIL_create,
+    'TLD':cv2.TrackerTLD_create,
+    'MEDIANFLOW':cv2.TrackerMedianFlow_create,
+    'CSRT':cv2.TrackerCSRT_create,      #* Slower but more accurate
+    'MOSSE':cv2.TrackerMOSSE_create
+}
+#*To run below code please install:- pip install opencv-contrib-python==4.2.0.34
+tracker = tracker_types['MOSSE']()
 
 #* This frame is used to select an object which is going to be tracked.
 success,img = cap.read()
