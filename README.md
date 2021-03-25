@@ -129,3 +129,7 @@ Simple and realtime object tracking in a video sequence.
 ## 21. Add Watermark
 
 Add watermark to images using opencv. Please make sure that watermark has black background.
+
+## 22. Multiple Object Tracking
+
+Simple, multiple and realtime object tracking in a video sequence. 
