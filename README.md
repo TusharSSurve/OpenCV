@@ -133,3 +133,7 @@ Add watermark to images using opencv. Please make sure that watermark has black 
 ## 22. Multiple Object Tracking
 
 Simple, multiple and realtime object tracking in a video sequence. 
+
+## 23. QRCode & Barcode Scanner
+
+Scanning QRCode & Barcode through camera using opencv and pyzbar.
