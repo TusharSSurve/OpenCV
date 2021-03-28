@@ -137,3 +137,7 @@ Simple, multiple and realtime object tracking in a video sequence.
 ## 23. QRCode & Barcode Scanner
 
 Scanning QRCode & Barcode through camera using opencv and pyzbar.
+
+## 24. Semantic Segmentation
+
+Semantic segmentation, or image segmentation, is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. It can be used for autonomous driving, robotic navigation, localization, and scene understanding.
