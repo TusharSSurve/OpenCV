@@ -141,3 +141,7 @@ Scanning QRCode & Barcode through camera using opencv and pyzbar.
 ## 24. Semantic Segmentation
 
 Semantic segmentation, or image segmentation, is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. It can be used for autonomous driving, robotic navigation, localization, and scene understanding.
+
+## 25. Human Activity Recognition
+
+Human activity recognition model can recognize over 400 activities with 78.4-94.5% accuracy.
