@@ -145,3 +145,7 @@ Semantic segmentation, or image segmentation, is the task of clustering parts of
 ## 25. Human Activity Recognition
 
 Human activity recognition model can recognize over 400 activities with 78.4-94.5% accuracy.
+
+## 26. Image Smoothing
+
+Smoothing is often used to reduce noise within an image or to produce a less pixelated image. Smoothing is also usually based on a single value representing the image, such as the average value of the image or the middle (median) value.
