@@ -149,3 +149,11 @@ Human activity recognition model can recognize over 400 activities with 78.4-94.
 ## 26. Image Smoothing
 
 Smoothing is often used to reduce noise within an image or to produce a less pixelated image. Smoothing is also usually based on a single value representing the image, such as the average value of the image or the middle (median) value.
+
+## 27. Yawn Detector
+
+Yawn Detection is all about detecting yawn( open one’s mouth wide and inhale deeply due to tiredness or boredom) using OpenCV and Dlib. It can be used in various major applications like Self Driving Cars, Driver’s Fatigue detection, Driver’s Drowsiness detection, Driver’s consciousness detection etc.
+
+I have used pre-trained HOG + Linear SVM object detector specifically for the task of face detection.
+Download shape_predictor_68_face_landmarks.dat from here:-
+https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
