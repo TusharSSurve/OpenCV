@@ -157,3 +157,7 @@ Yawn Detection is all about detecting yawn( open one’s mouth wide and inhale d
 I have used pre-trained HOG + Linear SVM object detector specifically for the task of face detection.
 Download shape_predictor_68_face_landmarks.dat from here:-
 https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
+
+## 28. Hand Landmark Detection 
+
+Detect 21 landmarks of a hand using opencv and mediapipe. Hand landmarks can be used in gesture control.
