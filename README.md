@@ -166,5 +166,5 @@ Detect 21 landmarks of a hand using opencv and mediapipe. First, we have to use 
 
 Building a Volume Controller with OpenCV can be accomplished in just 3 simple steps:
 - Step 1. Detect Hand landmarks 
-- Step 2. Calculate the distance between thumb and index finger.
-- Step 3. Map the distance of thumb and index finger with volume range. For my case, distance between thumb and finger was within the range of 15 - 220 and the volume range was from -63.5 - 0.0. 
+- Step 2. Calculate the distance between thumb tip and index finger tip.
+- Step 3. Map the distance of thumb tip and index finger tip with volume range. For my case, distance between thumb tip and index finger tip was within the range of 15 - 220 and the volume range was from -63.5 - 0.0. 
