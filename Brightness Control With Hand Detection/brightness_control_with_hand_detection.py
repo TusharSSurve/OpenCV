@@ -34,9 +34,9 @@ while True:
 
         length = hypot(x2-x1,y2-y1)
 
-        vol = np.interp(length,[15,220],[0,100])
-        print(vol,length)
-        sbc.set_brightness(int(vol))
+        bright = np.interp(length,[15,220],[0,100])
+        print(bright,length)
+        sbc.set_brightness(int(bright))
         
         # Hand range 15 - 220
         # Brightness range 0 - 100
