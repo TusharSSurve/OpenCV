@@ -176,3 +176,6 @@ Building a Brightness Controller with OpenCV can be accomplished in just 3 simpl
 - Step 2. Calculate the distance between thumb tip and index finger tip.
 - Step 3. Map the distance of thumb tip and index finger tip with volume range. For my case, distance between thumb tip and index finger tip was within the range of 15 - 220 and the volume range was from 0 - 100. 
 
+## 31. Left or Right Hand Detection
+
+Check whether the given hand in an image is left or right hand. It can be used to advance hand gestures control.
