@@ -182,4 +182,4 @@ Check whether the given hand in an image is left or right hand. It can be used t
 
 ## 32. Brightness & Volume Control
 
-It's same as [Link](##-30.-Brightness-Control-Using-Hand-Detection)
+It's same as [Link](README.md##-30.-Brightness-Control-Using-Hand-Detection)
