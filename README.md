@@ -170,6 +170,7 @@ Building a Volume Controller with OpenCV can be accomplished in just 3 simple st
 - Step 2. Calculate the distance between thumb tip and index finger tip.
 - Step 3. Map the distance of thumb tip and index finger tip with volume range. For my case, distance between thumb tip and index finger tip was within the range of 15 - 220 and the volume range was from -63.5 - 0.0. 
 
+<a id="custom-anchor-name1"></a>
 ## 30. Brightness Control Using Hand Detection
 
 Building a Brightness Controller with OpenCV can be accomplished in just 3 simple steps:
@@ -183,4 +184,4 @@ Check whether the given hand in an image is left or right hand. It can be used t
 
 ## 32. Brightness & Volume Control
 
-It's same as [Volume Control](#custom-anchor-name)
+It's same as [Volume Control Using Hand Detection](#custom-anchor-name) & [Brightness Control Using Hand Detection](#custom-anchor-name1). Only difference is now we can manage brightness with left hand & volume with right hand simultaneous.
