@@ -162,7 +162,7 @@ https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predic
 
 Detect 21 landmarks of a hand using opencv and mediapipe. First, we have to use palm detection then we use hand landmark detector. Hand landmarks can be used in gesture control.
 
-<a id="custom_anchor_name"></a>
+<a id="custom-anchor-name"></a>
 ## 29. Volume Control Using Hand Detection
 
 Building a Volume Controller with OpenCV can be accomplished in just 3 simple steps:
@@ -183,4 +183,4 @@ Check whether the given hand in an image is left or right hand. It can be used t
 
 ## 32. Brightness & Volume Control
 
-It's same as [Link](custom_anchor_name)
+It's same as [Link](custom-anchor-name)
