@@ -183,4 +183,4 @@ Check whether the given hand in an image is left or right hand. It can be used t
 
 ## 32. Brightness & Volume Control
 
-It's same as [Link](custom-anchor-name)
+It's same as [Volume Control](#custom-anchor-name)
