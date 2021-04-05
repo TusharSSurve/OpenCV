@@ -179,3 +179,7 @@ Building a Brightness Controller with OpenCV can be accomplished in just 3 simpl
 ## 31. Left or Right Hand Detection
 
 Check whether the given hand in an image is left or right hand. It can be used to advance hand gestures control.
+
+## 32. Brightness & Volume Control
+
+It's same as [Link](README.md## 30. Brightness Control Using Hand Detection)
