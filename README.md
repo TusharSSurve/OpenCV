@@ -185,3 +185,7 @@ Check whether the given hand in an image is left or right hand. It can be used t
 ## 32. Brightness & Volume Control
 
 It's same as [Volume Control Using Hand Detection](#custom-anchor-name) & [Brightness Control Using Hand Detection](#custom-anchor-name1). Only difference is now we can manage brightness with left hand & volume with right hand simultaneous.
+
+## 33. Face Mesh
+
+Face Mesh is a face geometry solution that estimates 468 3D face landmarks in real-time.
