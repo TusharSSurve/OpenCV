@@ -189,3 +189,7 @@ It's same as [Volume Control Using Hand Detection](#custom-anchor-name) & [Brigh
 ## 33. Face Mesh
 
 Face Mesh is a face geometry solution that estimates 468 3D face landmarks in real-time. It can be used as facial landmarks for detecting eyes, mouth, jawline, nose & eyebrows. Face mesh is mainly useful for real-time augmented reality (AR) applications.
+
+## 34. Face Detector - Advance
+
+So far I have used haar cascade & dlib for face detection. The main disadvantage of using this model was poor accuracy in terms of lightning, detecting background as face sometimes & much more. In order to overcome this, I have use the resnet caffe pretrained model.
