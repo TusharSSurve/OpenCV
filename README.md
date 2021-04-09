@@ -193,3 +193,7 @@ Face Mesh is a face geometry solution that estimates 468 3D face landmarks in re
 ## 34. Face Detector - Advance
 
 So far I have used haar cascade & dlib for face detection. The main disadvantage of using this model was poor accuracy in terms of lightning, detecting background as face sometimes & much more. In order to overcome this, I have use the resnet caffe pretrained model.
+
+## 35. Human Pose Estimation
+
+Detect 33 3D landmarks on the whole body (or 25 upper-body landmarks) using opencv and mediapipe. It can be used in various applications such as quantifying physical exercises, sign language recognition, and full-body gesture control. For example, it can form the basis for yoga, dance, and fitness applications. It can also enable the overlay of digital content and information on top of the physical world in augmented reality.
