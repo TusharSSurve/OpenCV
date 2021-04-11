@@ -197,3 +197,7 @@ So far I have used haar cascade & dlib for face detection. The main disadvantage
 ## 35. Human Pose Estimation
 
 Detect 33 3D landmarks on the whole body (or 25 upper-body landmarks) using opencv and mediapipe. It can be used in various applications such as quantifying physical exercises, sign language recognition, and full-body gesture control. For example, it can form the basis for yoga, dance, and fitness applications. It can also enable the overlay of digital content and information on top of the physical world in augmented reality.
+
+## 36. Holistic Estimation 
+
+Live perception of simultaneous human pose, face landmarks, and hand tracking in real-time can enable various modern life applications: fitness and sport analysis, gesture control and sign language recognition, augmented reality try-on and effects. It generate a total of 543 landmarks (33 pose landmarks, 468 face landmarks, and 21 hand landmarks per hand).
