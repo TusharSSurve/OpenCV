@@ -201,3 +201,7 @@ Detect 33 3D landmarks on the whole body (or 25 upper-body landmarks) using open
 ## 36. Holistic Estimation 
 
 Live perception of simultaneous human pose, face landmarks, and hand tracking in real-time can enable various modern life applications: fitness and sport analysis, gesture control and sign language recognition, augmented reality try-on and effects. It generate a total of 543 landmarks (33 pose landmarks, 468 face landmarks, and 21 hand landmarks per hand).
+
+## 37. Save a video
+
+Save a video using opencv.
