@@ -204,4 +204,4 @@ Live perception of simultaneous human pose, face landmarks, and hand tracking in
 
 ## 37. Save a video
 
-Save a video using opencv.
+Often, we have to capture live stream with camera. OpenCV provides a very simple interface to this. 
