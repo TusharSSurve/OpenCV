@@ -205,3 +205,7 @@ Live perception of simultaneous human pose, face landmarks, and hand tracking in
 ## 37. Save a video
 
 Often, we have to capture live stream with camera. OpenCV provides a very simple interface to this. 
+
+## 38. Create a GIF
+
+Create an animated GIF in real-time.
