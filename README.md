@@ -209,3 +209,7 @@ Often, we have to capture live stream with camera. OpenCV provides a very simple
 ## 38. Create a GIF
 
 Create an animated GIF in real-time.
+
+## 39. Objectron
+
+Objectron is a real-time 3D object detection solution for everyday objects. It detects objects in 2D images, and estimates their poses through a machine learning (ML) model. Currently supports Shoe, Chair, Cup &Camera.
