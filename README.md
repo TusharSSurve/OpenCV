@@ -212,4 +212,7 @@ Create an animated GIF in real-time.
 
 ## 39. Objectron
 
-Objectron is a real-time 3D object detection solution for everyday objects. It detects objects in 2D images, and estimates their poses through a machine learning (ML) model. Currently supports Shoe, Chair, Cup &Camera.
+Objectron is a real-time 3D object detection solution for everyday objects. It detects objects in 2D images, and estimates their poses through a machine learning (ML) model. Currently supports Shoe, Chair, Cup & Camera.
+
+## 40. Timer
+Show Timer on webcam.
