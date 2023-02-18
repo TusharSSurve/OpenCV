@@ -1,5 +1,5 @@
-# OpenCV-Mini-Projects
-**Computer vision** is a field of artificial intelligence that trains computers to interpret and understand the visual world. Using digital images from cameras and videos and deep learning models, machines can accurately identify and classify objects — and then react to what they “see.”
+# OpenCV
+**Computer vision** is an exciting field of artificial intelligence that teaches computers to interpret and understand the visual world by using digital images from cameras and videos, and sophisticated deep learning models. By accurately identifying and classifying objects in the visual world, computer vision allows machines to make informed decisions and take appropriate actions based on what they "see".
 
 **OpenCV (Open Source Computer Vision Library)** is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage then Itseez. The library is cross-platform and free for use under the open-source BSD license.
 
@@ -19,7 +19,7 @@ convert an image or a video into a sketch.
 
 ## 4. Extract Faces From An Image
 
-Simple python program to extract faces from an image. It can be used in a face recognition app to improve accuracy.
+A simple Python program that can extract faces from an image is a valuable tool for improving the accuracy of face recognition applications. Developers can implement robust algorithms that quickly and accurately detect faces in an image, crop the image to isolate the face, and save it as a separate image file for further analysis or processing. This program can be used to build a wide range of applications, including security systems, and more.
 
 ## 5. Color Detection
 
